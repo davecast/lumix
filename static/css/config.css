@@ -1,0 +1,144 @@
+:root {
+  --white: #FFFFFF;
+  --black: #0A0A0A;
+  --red: #F90D18;
+  --red-dark: #4C050A;
+  --grey: #F7F7F7; 
+  --grey-dark: #CCCCCC; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding: 60px 0;
+}
+.section__callaction {
+  position: relative;
+  background-image: url('../images/back-attachment-callaction.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: fixed;
+  display: flex;
+}
+.section__callaction::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/back-callaction.png);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.section__callaction .container {
+  z-index: 5;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*TEXTS*/
+.t--center {
+  text-align: center;
+}
+.t--left {
+  text-align: left;
+}
+.t--right {
+  text-align: right;
+}
+
+
+.t--red {
+  color: var(--red);
+}
+.t--red--dark {
+  color: var(--red-dark);
+}
+.t--white {
+  color: var(--white);
+}
+.t--grey {
+  color: var(--grey-dark);
+}
+
+.t--title {
+  font-size: 2.88em;
+  line-height: 3.1rem;
+}
+.t--title--small {
+  font-size: 2.3em;
+  line-height: 2.3rem;
+}
+.t--subtitle {
+  display: inline-block;
+  padding: 12px 18px 10px;
+  font-size: 1em;
+  line-height: 1rem;
+  border-radius: 5px;
+}
+.t--subtitle--red {
+  background-color: var(--red);
+}
+.t--subtitle--black {
+  background-color: var(--black);
+}
+.t--paragraph {
+  font-size: 1em;
+  line-height: 1.7rem;
+}
+.t--paragraph-small {
+  font-size: 0.88em;
+  line-height: 1.7rem;
+}
+
+/*MARGENES*/
+.m--b--20 {
+  margin-bottom: 20px;
+}
+.m--b--25 {
+  margin-bottom: 25px;
+}
+.m--b--35 {
+  margin-bottom: 35px;
+}
+.m--b--50 {
+  margin-bottom: 50px;
+}
+
+/*IMAGENES*/
+.image__box {
+  border-radius: 15px;
+  overflow: hidden;
+}

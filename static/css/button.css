@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  padding: 14px 42px 12px;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  line-height: 18px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn--red {
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn--red:hover {
+  background-color: var(--white);
+  color: var(--red);
+}
+.btn__outline--red {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--red);
+}
+.btn__outline--red:hover {
+  background-color: var(--red);
+}
+.btn--separate-r {
+  margin-right: 25px;
+}
