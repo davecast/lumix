@@ -13,6 +13,7 @@
   line-height: 1em;
   text-align: center;
   transition: all 0.3s ease-in-out;
+  color: var(--red-dark);
 }
 .product:hover .product__images {
   transform: translateY(-5px) scale(1.05);

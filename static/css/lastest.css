@@ -1,0 +1,29 @@
+.lastest {}
+.lastest__images {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.lastest__name {
+  font-size: 1em;
+  line-height: 1em;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5px;
+  color: var(--red-dark);
+}
+.lastest__type {
+  font-size: 0.8em;
+  line-height: 0.8em;
+  transition: all 0.3s ease-in-out;
+  color: var(--grey-dark);
+}
+
+.lastest:hover .lastest__images {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0px 12px 24px rgba(0,0,0,0.2);
+}
+.lastest:hover .lastest__name,
+.lastest:hover .lastest__type {
+  transform: translateY(-5px);
+}
