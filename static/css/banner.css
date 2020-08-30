@@ -29,6 +29,7 @@
   width: 100%;
 }
 .banner__container {
+  padding-top: 5em;
   max-width: 595px;
   margin: 0 auto;
 }
