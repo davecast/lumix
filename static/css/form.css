@@ -1,0 +1,50 @@
+.form {
+  display: grid;
+  grid-template-areas: "name name" "email phone" "message message" "submit submit";
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+}
+
+.form_fullname {
+  grid-area: name;
+}
+.form_email {
+  grid-area: email;
+}
+.form_phone {
+  grid-area: phone;
+}
+.form_message {
+  grid-area: message;
+}
+.form_submit {
+  grid-area: submit;
+}
+
+.form__control {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  font-size: 0.66em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+.form__control input {
+  height: 45px;
+}
+.form__control input,
+.form__control textarea {
+  width: 100%;
+  font-size: 0.77em;
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Open sans', sans-serif;
+  resize: none;
+}
+::placeholder {
+  color: #D3D3D3;
+}

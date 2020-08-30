@@ -86,6 +86,10 @@ ul {
   background-color: var(--red);
 }
 
+.b--black {
+  background-color: var(--black);
+}
+
 /*TEXTS*/
 
 .t--center {
