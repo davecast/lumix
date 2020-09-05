@@ -1,7 +1,9 @@
 .product {
   cursor: pointer;
+  text-align: center;
 }
 .product__images {
+  max-width: 100%;
   border-radius: 60px;
   border-top-left-radius: 30px;
   overflow: hidden;

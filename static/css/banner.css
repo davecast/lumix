@@ -12,9 +12,12 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
 }
 .banner__cover img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
   opacity: 0;
   z-index: 0;
@@ -32,4 +35,10 @@
   padding-top: 5em;
   max-width: 595px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 595px) {
+  .banner {
+    max-height: 595px;
+  }
 }

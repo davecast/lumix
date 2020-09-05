@@ -19,5 +19,16 @@
 .footer {
   text-align: center;
   color: var(--white);
-  padding: 15px 0;
+  padding: 12px 0;
+}
+
+@media screen and (max-width: 780px) {
+  .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .information__text {
+    text-align: left;
+  }
 }

@@ -48,3 +48,13 @@
 ::placeholder {
   color: #D3D3D3;
 }
+@media screen and (max-width: 780px) {
+  .form {
+    grid-template-areas:
+      "name name"
+      "email email"
+      "phone phone"
+      "message message"
+      "submit submit";
+  }
+}
